@@ -2,14 +2,14 @@ import os.path
 import os
 import shutil
 import glob
-import winreg
+import _winreg
 import sched, time
 
 while True:        
 
     #Busca en el registro de Windows el directorio de Puleo de Sitel Cliente.
-    with winreg.OpenKey(winreg.HKEY_CURRENT_USER, "SOFTWARE\\VB and VBA Program Settings\\Sitel32\\Puleo") as key:
-        value = winreg.QueryValueEx(key,'Directorio')
+    with _winreg.OpenKey(_winreg.HKEY_CURRENT_USER, "SOFTWARE\\VB and VBA Program Settings\\Sitel32\\Puleo") as key:
+        value = _winreg.QueryValueEx(key,'Directorio')
     ##variable que contiene el directorio de trabajo, el resultado es una array pero solo traigo el valor 0.
     dirtrabajo=(value[0])
     print (dirtrabajo)
@@ -66,7 +66,7 @@ while True:
     else:
         #El sistema operativo es de 32bits 
         if os.path.exists(dirbackup):
-            print('La carpeta bkp existe y el sistema operatico es de 64bits.')
+            print('La carpeta bkp existe y el sistema operatico es de 32bits.')
             ##Valida si existe el archivo prm que es el que desencadena el problema, si exite no hace nada, si no existe realiza el backup
             ##en la carpeta bkp
             if os.path.exists(archivoprm):
