@@ -21,12 +21,17 @@ ej: "c:/estandar" y "programfiles/ITCSoluciones/SitelCliente"
 ## Instalacion
 Es un ejecutable deberia copiarse dentro de ITCSoluciones/, para que el sistema corra al inicio es necesario crear una tarea desde el programador de tareas de windows.
 
-1 - Crear tarea basica.
-2 - Nombre: recuprm
-3 - Desencadenar: al iniciar sesion y que correa para cualquier usuario del sistema.
-4 - Accion: Iniciar un programa
-5 - Examinar: ruta en donde se encuentra el ejecutable "recuprm.exe"
-6 - En la solapa General tildar "ejecutar con los privilegios mas altos"
+1-Crear tarea basica.
+
+2-Nombre: recuprm
+
+3-Desencadenar: al iniciar sesion y que correa para cualquier usuario del sistema.
+
+4-Accion: Iniciar un programa
+
+5-Examinar: ruta en donde se encuentra el ejecutable "recuprm.exe"
+
+6-En la solapa General tildar "ejecutar con los privilegios mas altos"
 
 La tarea programada se ejecutara en el inicio de sesion de cualquier usuario y la app va a etsar siempre activa y cada 60 segundos vericando cambios.
 
