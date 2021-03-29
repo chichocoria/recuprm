@@ -1,4 +1,4 @@
-# renew_prm_bkp
+# recuprm
 Sistema para realizar backup de archivos de registración de la herramienta Sitel Cliente.
 
 ## Limitaciones
