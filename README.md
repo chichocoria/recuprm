@@ -28,7 +28,9 @@ ej: "c:/estandar" y "programfiles/ITCSoluciones/SitelCliente"
 ## Instalacion
 
 El camino aun es mas corto.
+
 1-Correr el instalador Installer recuprm.exe
+
 2-Listo!!
 
 recuprm se ejecutara en el inicio de sesion de cualquier usuario y la app va a estar siempre activa y cada 60 segundos verificando cambios.
