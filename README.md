@@ -2,6 +2,13 @@
 Aplicacion para realizar backup de archivos de registración de la herramienta Sitel Cliente.
 Se usó Python y se compilo a .exe con pyinstaller.
 
+Autor: Ruben Dario Coria
+
+## Colaboradores
+* Damiam Heinze
+* Lucas Arenas
+* Santiago Torriglia
+
 ## Descripcion General
 La aplicacion busca eliminar los llamados por "Licencia Invalida" cuando el usuario experimenta cortes de luz, mal apagado de la PC o problemas externos.
 
