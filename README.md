@@ -5,7 +5,7 @@ Se usó Python y se compilo a .exe con pyinstaller.
 Autor: Ruben Dario Coria
 
 ## Colaboradores
-* Damiam Heinze
+* Damiam Heinze: Instalador NSIS y agregado el acceso directo al common startup para que siempre inicie al encender la PC.
 * Lucas Arenas
 * Santiago Torriglia
 
