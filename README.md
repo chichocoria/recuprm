@@ -26,21 +26,26 @@ La app cada 60 segundos verifica que exista el archivo _sitel.prm que es el que 
 ej: "c:/estandar" y "programfiles/ITCSoluciones/SitelCliente"
 
 ## Instalacion
-Es un ejecutable deberia copiarse dentro de ITCSoluciones/, para que el sistema corra al inicio es necesario crear una tarea desde el programador de tareas de windows.
 
-1-Crear tarea basica.
+El camino aun es mas corto.
+1-Correr el instalador Installer recuprm.exe
+2-Listo!!
 
-2-Nombre: recuprm
+recuprm se ejecutara en el inicio de sesion de cualquier usuario y la app va a estar siempre activa y cada 60 segundos verificando cambios.
 
-3-Desencadenar: al iniciar sesion y que correa para cualquier usuario del sistema.
+~~Es un ejecutable deberia copiarse dentro de ITCSoluciones/, para que el sistema corra al inicio es necesario crear una tarea desde el programador de tareas de windows.~~
 
-4-Accion: Iniciar un programa
+~~1-Crear tarea basica.~~
 
-5-Examinar: ruta en donde se encuentra el ejecutable "recuprm.exe"
+~~2-Nombre: recuprm~~
 
-6-En la solapa General tildar "ejecutar con los privilegios mas altos"
+~~3-Desencadenar: al iniciar sesion y que correa para cualquier usuario del sistema.~~
 
-La tarea programada se ejecutara en el inicio de sesion de cualquier usuario y la app va a etsar siempre activa y cada 60 segundos vericando cambios.
+~~4-Accion: Iniciar un programa~~
+
+~~5-Examinar: ruta en donde se encuentra el ejecutable "recuprm.exe"~~
+
+~~6-En la solapa General tildar "ejecutar con los privilegios mas altos"~~
 
 ## Limitaciones
 La aplicacion Funciona en Windows 7/8/10 y posteriores x86 y x64.
