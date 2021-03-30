@@ -14,7 +14,7 @@ La aplicacion busca eliminar los llamados por "Licencia Invalida" cuando el usua
 Tambien busca eliminar los llamados por time-out provocados por que no esta ejecutado Sitel Cliente al inicio de la sesion.
 
 ## Funcionamiento
-Una vez instalado Sitel PCPOS o Sifos y configuradas las aplicaciones con las licencias respectivas, debemos ejecutar recuprm.
+Una vez instalado Sitel PCPOS o Sifos y configuradas las aplicaciones con las licencias respectivas, debemos ejecutar el instalador Installer recuprm.exe.
 En la primer ejecucion crea una carpeta llamada 'bkp' dentro del directorio de trabajo configurado en sitel (por defecto c:/estandar) con los archivos:
 _sitel.prm
 _sitel.prv
@@ -25,6 +25,8 @@ XXXXXXXX.lic
 La app cada 60 segundos verifica que exista el archivo _sitel.prm que es el que desencadena el error, si no lo encuentra copia todo lo que esta en la carpeta bkp en los directorios q correspondan.
 
 ej: "c:/estandar" y "programfiles/ITCSoluciones/SitelCliente"
+
+El instalador crea un acceso directo en el directorio Startup para todos los usuarios de Sitel Cliente, esto elimina tener q aceeder a "Ejecutar" y cargar "Shell:common startup" para recien copiar el acceso directo.
 
 ## Instalacion
 
