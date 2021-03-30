@@ -71,6 +71,6 @@ pip install pyinstaller==2.1
 
 pip install pypiwin32
 
-### Compilar el archico .py
+### Compilar el archivo .py
 
 pyinstaller --onefile --windowed nombre_archivo.py
