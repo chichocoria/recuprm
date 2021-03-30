@@ -11,6 +11,7 @@ Autor: Ruben Dario Coria
 
 ## Descripcion General
 La aplicacion busca eliminar los llamados por "Licencia Invalida" cuando el usuario experimenta cortes de luz, mal apagado de la PC o problemas externos.
+Tambien busca eliminar los llamados por time-out provocados por que no esta ejecutado Sitel Cliente al inicio de la sesion.
 
 ## Funcionamiento
 Una vez instalado Sitel PCPOS o Sifos y configuradas las aplicaciones con las licencias respectivas, debemos ejecutar recuprm.
