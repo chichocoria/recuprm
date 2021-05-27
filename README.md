@@ -56,6 +56,12 @@ recuprm se ejecutara en el inicio de sesion de cualquier usuario y la app va a e
 La aplicacion Funciona en Windows 7/8/10 y posteriores x86 y x64.
 Es necesario como primer paso registrar licencia en Sitel y que se creen los archivos _sitel.prm, _sitel.prv y _sitel.emp asi como los archivos de licencia en la carpeta de instalacion de sitel XXXXXXXX.lic y XXXXXXXX.prm
 
+## Releases
+
+### V1.2
+- Se agrega un log con level INFO en donde se puede visualizar fecha y hora del inicio del sistema, backup y recuperacion del mismo ("logs_info_itcs.log").
+- Se cambio el nombre del directorio "bkp" a  "backup_itcs"
+
 ## Compilacion
 Para compilar el archivo se utilizo.
  * Windows 7 32bits SP1
