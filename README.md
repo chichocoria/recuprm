@@ -60,7 +60,7 @@ Es necesario como primer paso registrar licencia en Sitel y que se creen los arc
 
 ### V1.2
 - Se agrega un log con level INFO en donde se puede visualizar fecha y hora del inicio del sistema, backup y recuperacion del mismo ("logs_info_itcs.log").
-- Se cambio el nombre del directorio "bkp" a  "backup_itcs"
+- Se cambio el nombre del directorio "bkp" a  "backup_itcs" debido a que algunos sistemas homologados usan el nombre "bkp" y puede crear conflictos.
 
 ## Compilacion
 Para compilar el archivo se utilizo.
