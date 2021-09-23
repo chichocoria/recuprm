@@ -37,20 +37,8 @@ El camino aun es mas corto.
 2-Listo!!
 
 recuprm se ejecutara en el inicio de sesion de cualquier usuario y la app va a estar siempre activa y cada 60 segundos verificando cambios.
+Se agrega un acceso directo de Sitel al Startup de todos los usuarios.
 
-~~Es un ejecutable deberia copiarse dentro de ITCSoluciones/, para que el sistema corra al inicio es necesario crear una tarea desde el programador de tareas de windows.~~
-
-~~1-Crear tarea basica.~~
-
-~~2-Nombre: recuprm~~
-
-~~3-Desencadenar: al iniciar sesion y que correa para cualquier usuario del sistema.~~
-
-~~4-Accion: Iniciar un programa~~
-
-~~5-Examinar: ruta en donde se encuentra el ejecutable "recuprm.exe"~~
-
-~~6-En la solapa General tildar "ejecutar con los privilegios mas altos"~~
 
 ## Limitaciones
 La aplicacion Funciona en Windows 7/8/10 y posteriores x86 y x64.
